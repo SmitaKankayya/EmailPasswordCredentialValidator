@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		127B5EDD147D0CE787E3DBBCE05A31E0 /* EmailPasswordCredentialValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 596A72BA5E21BD4BF1E0987E5331BEE4 /* EmailPasswordCredentialValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127B5EDD147D0CE787E3DBBCE05A31E0 /* EmailPasswordCredentialValidator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 984B5626C2E82D563F3F728D2061249D /* EmailPasswordCredentialValidator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4E072A527649D9BA6106F25B487A1225 /* Pods-TestFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD8EF24FF1A8360E62CE9BFF78F1F5F /* Pods-TestFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9261555BACA42660E9DE010FC252420F /* Pods-TestFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 416AADA68E5BB5B391088B2716EDEB8D /* Pods-TestFramework-dummy.m */; };
 		A1F1F391B52C9F702E53FDC065DD59B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D0232AA6AC6E2490B3ED932003052163 /* EmailPasswordCredentialValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AE93412E03DCB3ECB054A7459DC90D /* EmailPasswordCredentialValidator-dummy.m */; };
-		D1ED8FFC4AB14A0051843E0E04AE7ADA /* EmailPasswordCredentialValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD62ED114C46D9663DB8833479EF25A5 /* EmailPasswordCredentialValidator.swift */; };
+		D0232AA6AC6E2490B3ED932003052163 /* EmailPasswordCredentialValidator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59EC4C5F5146F2B54673D03D7A14D87D /* EmailPasswordCredentialValidator-dummy.m */; };
+		D1ED8FFC4AB14A0051843E0E04AE7ADA /* EmailPasswordCredentialValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E8299E2250714093F784C306DA7212 /* EmailPasswordCredentialValidator.swift */; };
 		E9B74F061B2FA5B19E5E94FD7E3519DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0C3166F503E9F0521B727B09AA9F6724 /* PBXContainerItemProxy */ = {
+		37328F7A9D4696FDF1ED405A94277BD4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,28 +27,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0142AEEAD76930A78A967B88D8634794 /* EmailPasswordCredentialValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmailPasswordCredentialValidator.release.xcconfig; sourceTree = "<group>"; };
-		12AE93412E03DCB3ECB054A7459DC90D /* EmailPasswordCredentialValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmailPasswordCredentialValidator-dummy.m"; sourceTree = "<group>"; };
 		1BD8EF24FF1A8360E62CE9BFF78F1F5F /* Pods-TestFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestFramework-umbrella.h"; sourceTree = "<group>"; };
-		1DF31509F3A0A9E98AC30F28F86799E8 /* EmailPasswordCredentialValidator.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EmailPasswordCredentialValidator.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		22FE7C6FC62841FBE0E075C092915BF1 /* Pods-TestFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
 		416AADA68E5BB5B391088B2716EDEB8D /* Pods-TestFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestFramework-dummy.m"; sourceTree = "<group>"; };
+		44E8299E2250714093F784C306DA7212 /* EmailPasswordCredentialValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailPasswordCredentialValidator.swift; path = EmailPasswordCredentialValidator/EmailPasswordCredentialValidator.swift; sourceTree = "<group>"; };
 		45C0E56D5ECDAA040CCB28985472C33C /* Pods-TestFramework-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestFramework-frameworks.sh"; sourceTree = "<group>"; };
-		4C5E10DBAFC96F09236566F324CA7392 /* EmailPasswordCredentialValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmailPasswordCredentialValidator.modulemap; sourceTree = "<group>"; };
 		51F40685CAF6719E51617ECAF532A004 /* Pods-TestFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TestFramework"; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5367C0F35203E7688275B7B476CB5ECF /* EmailPasswordCredentialValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmailPasswordCredentialValidator.debug.xcconfig; sourceTree = "<group>"; };
-		588A56C09352EE7B8A533B54F731B25A /* EmailPasswordCredentialValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmailPasswordCredentialValidator-Info.plist"; sourceTree = "<group>"; };
-		596A72BA5E21BD4BF1E0987E5331BEE4 /* EmailPasswordCredentialValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmailPasswordCredentialValidator-umbrella.h"; sourceTree = "<group>"; };
+		59EC4C5F5146F2B54673D03D7A14D87D /* EmailPasswordCredentialValidator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EmailPasswordCredentialValidator-dummy.m"; sourceTree = "<group>"; };
 		61D99566E388A479B878B6CC17B77153 /* Pods-TestFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestFramework.modulemap"; sourceTree = "<group>"; };
+		65035470AA46A310FE97C0483AE766FD /* EmailPasswordCredentialValidator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmailPasswordCredentialValidator.debug.xcconfig; sourceTree = "<group>"; };
 		67A3398FD14419A53F0FCBA6A8C52F49 /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 		707AB4A483E8F11DC8955BEF8BCB0BAD /* Pods-TestFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestFramework-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7A7250B7D325B22BBF5C0363C4D8292C /* EmailPasswordCredentialValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmailPasswordCredentialValidator-prefix.pch"; sourceTree = "<group>"; };
+		777C60EEAE7C1A1E858A84E2F216D73D /* EmailPasswordCredentialValidator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EmailPasswordCredentialValidator.modulemap; sourceTree = "<group>"; };
+		984B5626C2E82D563F3F728D2061249D /* EmailPasswordCredentialValidator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmailPasswordCredentialValidator-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B69B618090292DCF9B099E5383D662A5 /* Pods-TestFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestFramework-acknowledgements.plist"; sourceTree = "<group>"; };
 		B72253B4C7CA37FF4AC0A4CDE22240C8 /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		CD62ED114C46D9663DB8833479EF25A5 /* EmailPasswordCredentialValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EmailPasswordCredentialValidator.swift; path = EmailPasswordCredentialValidator/EmailPasswordCredentialValidator.swift; sourceTree = "<group>"; };
+		C5CB536A095CB2203225CB96B2062245 /* EmailPasswordCredentialValidator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EmailPasswordCredentialValidator-prefix.pch"; sourceTree = "<group>"; };
+		CE0B5BECD49C8DFB8D720C64D7C0BA8E /* EmailPasswordCredentialValidator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EmailPasswordCredentialValidator.release.xcconfig; sourceTree = "<group>"; };
 		D5A4284C735B513327BB4F856FEB042A /* EmailPasswordCredentialValidator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EmailPasswordCredentialValidator; path = EmailPasswordCredentialValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE51999541151E18B0A8538101752190 /* EmailPasswordCredentialValidator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EmailPasswordCredentialValidator-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +70,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EC6CC2AF41F6CFC5A4A42BB6E8FA598 /* Pod */ = {
+		221D3CBC0E55F171C3CBBF10311335B3 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DF31509F3A0A9E98AC30F28F86799E8 /* EmailPasswordCredentialValidator.podspec */,
+				777C60EEAE7C1A1E858A84E2F216D73D /* EmailPasswordCredentialValidator.modulemap */,
+				59EC4C5F5146F2B54673D03D7A14D87D /* EmailPasswordCredentialValidator-dummy.m */,
+				DE51999541151E18B0A8538101752190 /* EmailPasswordCredentialValidator-Info.plist */,
+				C5CB536A095CB2203225CB96B2062245 /* EmailPasswordCredentialValidator-prefix.pch */,
+				984B5626C2E82D563F3F728D2061249D /* EmailPasswordCredentialValidator-umbrella.h */,
+				65035470AA46A310FE97C0483AE766FD /* EmailPasswordCredentialValidator.debug.xcconfig */,
+				CE0B5BECD49C8DFB8D720C64D7C0BA8E /* EmailPasswordCredentialValidator.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "../Target Support Files/EmailPasswordCredentialValidator";
 			sourceTree = "<group>";
 		};
 		3ADF316A88256B8531E6E57E618745BE /* Products */ = {
@@ -96,6 +102,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		664020CC79CAE72B1A3A9884A9BFFDE0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E55EFB8DEB950EDE18276C29C95A4118 /* EmailPasswordCredentialValidator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6671105283E77F41EB2CE1B769F1C529 /* Pods-TestFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,46 +127,12 @@
 			path = "Target Support Files/Pods-TestFramework";
 			sourceTree = "<group>";
 		};
-		BB000057314C08AB2071A2F2E25CE83A /* EmailPasswordCredentialValidator */ = {
-			isa = PBXGroup;
-			children = (
-				CD62ED114C46D9663DB8833479EF25A5 /* EmailPasswordCredentialValidator.swift */,
-				0EC6CC2AF41F6CFC5A4A42BB6E8FA598 /* Pod */,
-				CEA9D130B5D19940E8C65C02DE834CD6 /* Support Files */,
-			);
-			name = EmailPasswordCredentialValidator;
-			path = ../../EmailPasswordCredentialValidator;
-			sourceTree = "<group>";
-		};
-		C88BBD52EE9205734F9550D5EAAB7B60 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BB000057314C08AB2071A2F2E25CE83A /* EmailPasswordCredentialValidator */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CEA9D130B5D19940E8C65C02DE834CD6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4C5E10DBAFC96F09236566F324CA7392 /* EmailPasswordCredentialValidator.modulemap */,
-				12AE93412E03DCB3ECB054A7459DC90D /* EmailPasswordCredentialValidator-dummy.m */,
-				588A56C09352EE7B8A533B54F731B25A /* EmailPasswordCredentialValidator-Info.plist */,
-				7A7250B7D325B22BBF5C0363C4D8292C /* EmailPasswordCredentialValidator-prefix.pch */,
-				596A72BA5E21BD4BF1E0987E5331BEE4 /* EmailPasswordCredentialValidator-umbrella.h */,
-				5367C0F35203E7688275B7B476CB5ECF /* EmailPasswordCredentialValidator.debug.xcconfig */,
-				0142AEEAD76930A78A967B88D8634794 /* EmailPasswordCredentialValidator.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../TestFramework/Pods/Target Support Files/EmailPasswordCredentialValidator";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				C88BBD52EE9205734F9550D5EAAB7B60 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				664020CC79CAE72B1A3A9884A9BFFDE0 /* Pods */,
 				3ADF316A88256B8531E6E57E618745BE /* Products */,
 				D8B08CCEDA2056683EC0641593ACF5E3 /* Targets Support Files */,
 			);
@@ -172,6 +152,16 @@
 				6671105283E77F41EB2CE1B769F1C529 /* Pods-TestFramework */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E55EFB8DEB950EDE18276C29C95A4118 /* EmailPasswordCredentialValidator */ = {
+			isa = PBXGroup;
+			children = (
+				44E8299E2250714093F784C306DA7212 /* EmailPasswordCredentialValidator.swift */,
+				221D3CBC0E55F171C3CBBF10311335B3 /* Support Files */,
+			);
+			name = EmailPasswordCredentialValidator;
+			path = EmailPasswordCredentialValidator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +198,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F66A6BA96084D5F6A4FC3A58179C01B4 /* PBXTargetDependency */,
+				EADC501C25ABDACA9785B1FEAF6CFB1F /* PBXTargetDependency */,
 			);
 			name = "Pods-TestFramework";
 			productName = Pods_TestFramework;
@@ -299,11 +289,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F66A6BA96084D5F6A4FC3A58179C01B4 /* PBXTargetDependency */ = {
+		EADC501C25ABDACA9785B1FEAF6CFB1F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EmailPasswordCredentialValidator;
 			target = DAB266E9F6E06A6CDD22DC3C3864628C /* EmailPasswordCredentialValidator */;
-			targetProxy = 0C3166F503E9F0521B727B09AA9F6724 /* PBXContainerItemProxy */;
+			targetProxy = 37328F7A9D4696FDF1ED405A94277BD4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -347,7 +337,7 @@
 		};
 		4A71F48611439E0E18E42B71D59C8942 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5367C0F35203E7688275B7B476CB5ECF /* EmailPasswordCredentialValidator.debug.xcconfig */;
+			baseConfigurationReference = 65035470AA46A310FE97C0483AE766FD /* EmailPasswordCredentialValidator.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -448,7 +438,7 @@
 		};
 		9A5031BDDA716EF3026B2D1641A3E57B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0142AEEAD76930A78A967B88D8634794 /* EmailPasswordCredentialValidator.release.xcconfig */;
+			baseConfigurationReference = CE0B5BECD49C8DFB8D720C64D7C0BA8E /* EmailPasswordCredentialValidator.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

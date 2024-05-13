@@ -8,6 +8,7 @@ target 'TestFramework' do
   use_frameworks!
 
   # Pods for TestFramework
-  pod 'EmailPasswordCredentialValidator', :path => '../EmailPasswordCredentialValidator'
+  #pod 'EmailPasswordCredentialValidator', :path => '../EmailPasswordCredentialValidator'
+  pod 'EmailPasswordCredentialValidator'
 
 end

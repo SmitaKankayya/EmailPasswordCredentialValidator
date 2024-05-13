@@ -13,9 +13,6 @@
 		205C937D2BF2854D003E859C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205C937B2BF2854D003E859C /* Main.storyboard */; };
 		205C937F2BF2854E003E859C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205C937E2BF2854E003E859C /* Assets.xcassets */; };
 		205C93822BF2854E003E859C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205C93802BF2854E003E859C /* LaunchScreen.storyboard */; };
-		205C938B2BF28600003E859C /* EmailPasswordCredentialValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205C93892BF285F5003E859C /* EmailPasswordCredentialValidator.framework */; };
-		205C938C2BF28600003E859C /* EmailPasswordCredentialValidator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 205C93892BF285F5003E859C /* EmailPasswordCredentialValidator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		90EA164D96F5299AD09ACBE6 /* Pods_TestFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA149DF38776E2B5A61C08E8 /* Pods_TestFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +22,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				205C938C2BF28600003E859C /* EmailPasswordCredentialValidator.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -41,7 +37,6 @@
 		205C937E2BF2854E003E859C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205C93812BF2854E003E859C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		205C93832BF2854E003E859C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		205C93892BF285F5003E859C /* EmailPasswordCredentialValidator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = EmailPasswordCredentialValidator.framework; sourceTree = "<group>"; };
 		21AB1F969AE7D5D77E43043D /* Pods-TestFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.release.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.release.xcconfig"; sourceTree = "<group>"; };
 		557046D1F7892F9DF66F5D0E /* Pods-TestFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestFramework.debug.xcconfig"; path = "Target Support Files/Pods-TestFramework/Pods-TestFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		CA149DF38776E2B5A61C08E8 /* Pods_TestFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +47,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				205C938B2BF28600003E859C /* EmailPasswordCredentialValidator.framework in Frameworks */,
-				90EA164D96F5299AD09ACBE6 /* Pods_TestFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +89,6 @@
 				205C937E2BF2854E003E859C /* Assets.xcassets */,
 				205C93802BF2854E003E859C /* LaunchScreen.storyboard */,
 				205C93832BF2854E003E859C /* Info.plist */,
-				205C93892BF285F5003E859C /* EmailPasswordCredentialValidator.framework */,
 			);
 			path = TestFramework;
 			sourceTree = "<group>";
@@ -107,7 +99,6 @@
 				557046D1F7892F9DF66F5D0E /* Pods-TestFramework.debug.xcconfig */,
 				21AB1F969AE7D5D77E43043D /* Pods-TestFramework.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -382,6 +373,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestFramework",
@@ -418,6 +410,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/TestFramework",
