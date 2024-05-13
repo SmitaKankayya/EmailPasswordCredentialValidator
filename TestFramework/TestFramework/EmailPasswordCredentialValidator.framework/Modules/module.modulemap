@@ -1,0 +1,11 @@
+framework module EmailPasswordCredentialValidator {
+  umbrella header "EmailPasswordCredentialValidator.h"
+  export *
+
+  module * { export * }
+}
+
+module EmailPasswordCredentialValidator.Swift {
+  header "EmailPasswordCredentialValidator-Swift.h"
+  requires objc
+}

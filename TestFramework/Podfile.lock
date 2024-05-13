@@ -1,0 +1,16 @@
+PODS:
+  - EmailPasswordCredentialValidator (1.1.0)
+
+DEPENDENCIES:
+  - EmailPasswordCredentialValidator (from `../EmailPasswordCredentialValidator`)
+
+EXTERNAL SOURCES:
+  EmailPasswordCredentialValidator:
+    :path: "../EmailPasswordCredentialValidator"
+
+SPEC CHECKSUMS:
+  EmailPasswordCredentialValidator: ba56440275b99b6b6fac62e71dfff362d2b63454
+
+PODFILE CHECKSUM: 79b546f87a457edb02c5b9bacc2b2e080c6a36ae
+
+COCOAPODS: 1.15.2
