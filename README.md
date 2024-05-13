@@ -1,5 +1,5 @@
 # EmailPasswordCredentialValidator
-iOS Framework to validate Email and Password
+Creating and Publishing Custom iOS Framework using Cocoapods.
 
 -In this repository, creating a custom framework 'EmailPasswordCredentialValidator'.<br> 
 -The framework provides functionality to validate email addresses and passwords.<br>
